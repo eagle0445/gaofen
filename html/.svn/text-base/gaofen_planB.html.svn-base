@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--    <meta http-equiv="Access-Control-Allow-Origin" content="*">-->
+    <title>高分工程中心</title>
+    <!-- 移动端屏幕分辨率 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <!-- 中文编码 -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <!-- IE浏览器 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Bootstrap -->
+    <link href="../ui/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/indexB.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+
+    <![endif]-->
+</head>
+<body>
+
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="myModalLabel">用户登录</h4>
+            </div>
+            <div class="modal-body" style="height: 130px;">
+
+                <div class="row">
+                    <label for="user" class="col-md-2 control-label" >用户名</label>
+                    <div class="col-md-10">
+                        <input type="email" class="form-control" id="user" placeholder="用户名">
+                    </div>
+                </div>
+                <div class="row" style="margin-top: 30px;">
+                    <label for="passwd" class="col-md-2 control-label" >密码</label>
+                    <div class="col-md-10">
+                        <input type="password" class="form-control" id="passwd" >
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary">登陆</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<nav class="navbar "  role="navigation">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="container" style="margin-top: 20px;">
+        <div class="navbar-header">
+            <a  href="gaofen_planB.html"><img src="../images/logo9.png" width="100px" alt="Inc"></a>
+        </div>
+
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs pull-right" style="font-size:15px;">
+            <li><a href="gaofen_planB.html">主页</a></li>
+            <li><a href="product.html" >产品</a></li>
+            <li><a href="about_us.html" >关于我们</a></li>
+            <li><a href="mailto:94695914@qq.com" >反馈</a></li>
+            <li style="border-left: 1px solid #ddd;width: 1px;margin: 14px 20px;height: 16px;"></li>
+            <li><button type="button" class="btn btn-default login" data-toggle="modal" data-target="#myModal">登陆</button></li>
+        </ul>
+
+    </div>
+
+</nav>
+<div class="titleBackground" style="margin-top:20px; color:#ffffff;text-align: center;">
+    <h1 class="title-h1">高分辨率对地观测中心</h1>
+    <p style="font-size: 20px;margin-top: 40px;">每一位高分人</p>
+          <p style="font-size: 20px;">都在平等、轻松的伙伴式工作氛围中，</p>
+    <p style="font-size: 20px;">享受与技术、产品、设计各领域顶尖人才共同成长的快意。</p>
+
+
+</div>
+
+  <section id="introduce" style="text-align: center;margin-top: 90px;">
+      <h2>分享创作的快乐</h2>
+      <div class="container" style="margin-top: 100px;">
+
+            <div class="row">
+                <div class="col col-xs-4">
+                    <img src="../images/what_icon.png">
+                    <h4>发展目标</h4>
+                    <p>我们期望通过这个平台，展现高分研发团队强大的研发、创新能力，推动学术界和产业界的交互。</p>
+                </div>
+                <div class="col col-xs-4">
+                    <img src="../images/who_icon.png">
+                    <h4>团队背景</h4>
+                    <p>实验室依托浙江大学先进技术研究院，是浙江大学专门批文成立的从事对地观测技术、遥感卫星应用、遥感信息处理的专业工程技术中心</p>
+                </div>
+                <div class="col col-xs-4">
+                    <img src="../images/why_icon.png">
+                    <h4>团队氛围</h4>
+                    <p>我们崇尚创新、快速的互联网文化。我们讨厌冗长的会议和流程，在轻松的伙伴式工作氛围中发挥自己的创意。</p>
+                </div>
+            </div>
+      </div>
+  </section>
+
+<footer  class="foot">
+    <div class="container" style="border-top:1px #dcdcdc solid;"><span class="pull-right" style="cursor: pointer;"><img src="../images/weibo.png"></span></div>
+    <address>© 2013 Gaofen Lab. All rights reserved. Privacy Terms  </address>
+
+</footer>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="../ui/dist/js/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="../ui/dist/js/bootstrap.js"></script>
+<script src="../js/index.js"></script>
+</body>
+</html>

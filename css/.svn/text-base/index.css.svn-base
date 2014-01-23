@@ -1,0 +1,5 @@
+.gaofenlogo{background-image: url("../images/logo.png");width: 140px;height: 60px;margin-left: 100px;}
+.gaofenlogo:hover{background:red  url("../images/logo.png");width: 140px;height: 60px;}
+body { font-size: 13px;color: #333;background: #ffffff;line-height: 1.7;font-family: "Helvitica Neue", Helvitica, Arial, sans-serif;}
+.titleBackground{background-image:url("../images/bg-drip.jpg");background-repeat:no-repeat;background-size:cover;height: 300px;}
+h1 { color: #fff; padding: 130px 0 10px; text-align: center; margin: 0;font-size: 58px; border-bottom: 4px solid #fff; font-weight: 600; display: block; width: 350px; margin: 0 auto;  }
